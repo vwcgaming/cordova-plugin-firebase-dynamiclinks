@@ -22,8 +22,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <preference name="PAGE_LINK_DOMAIN" />
 
     <platform name="android">
-        <preference name="FIREBASE_ANALYTICS_VERSION" default="+"/>
-        <preference name="FIREBASE_DYNAMIC_LINKS_VERSION" default="+"/>
+        <preference name="FIREBASE_ANALYTICS_VERSION" default="17.2.1"/>
+        <preference name="FIREBASE_DYNAMIC_LINKS_VERSION" default="19.0.0"/>
 
         <config-file parent="/*" target="res/xml/config.xml">
             <preference name="DYNAMIC_LINK_URIPREFIX" value="https://$PAGE_LINK_DOMAIN"/>
